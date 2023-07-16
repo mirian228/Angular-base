@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { FormsModule } from '@angular/forms';
 import { DatabindingComponent } from './databinding/databinding.component';
+import { AssignmentComponent } from './assignment/assignment.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { DatabindingComponent } from './databinding/databinding.component';
     HeaderComponent,
     FooterComponent,
     DatabindingComponent,
+    AssignmentComponent,
     
   ],
   imports: [
